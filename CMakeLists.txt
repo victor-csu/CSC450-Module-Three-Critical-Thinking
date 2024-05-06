@@ -3,5 +3,4 @@ project(Critical_Thinking)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Critical_Thinking main.cpp
-        MyException.h)
+add_executable(Critical_Thinking main.cpp)
