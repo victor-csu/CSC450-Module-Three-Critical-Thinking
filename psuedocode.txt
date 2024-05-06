@@ -1,0 +1,23 @@
+PROGRAM: Integer Pointers
+-	This program collects three integer values as input. Stores the values into three different variables.
+    For each variable, it creates an integer pointer to dynamic memory and displays the contents of the variables and pointers.
+    The new operator and delete operators are used to manage memory.
+
+BEGIN
+    BEGIN
+        create a main.cpp file.
+
+        declare a "str_trim" function that takes a string and returns the string with white space removed from both ends. Make sure the initial string is not mutated.
+        declare a "get_input" function that prompts a user to enter an integer string and returns a value of the type int.
+                The function takes one argument: a string "instruction" to tell the user what to enter.
+                Use the "str_trim" function to trim the string and the "int" function to convert it to an integer before returning it.
+                Save the final value in a pointer and return it.
+    END
+
+    declare a main function to run the program.
+    inside the main function:
+        - using the "get_input" function collect the user input thrice and save them in different variables.
+        - store the value of the pointer variables created above in separate variables.
+        - Print out each of the variables above, the value and its pointer.
+        - deallocate the pointer variables created using the "delete" keyword.
+END
